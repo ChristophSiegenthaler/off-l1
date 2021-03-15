@@ -33,6 +33,10 @@ export const Header = styled.header`
   color: #5E4C59;
 `;
 
+export const Title = styled.h3`
+  margin:1em;
+`
+
 export const Body = styled.body`
   align-items: center;
   background-color: #5E4C5A;
@@ -111,4 +115,8 @@ export const Label = styled.span`
   display: inline-block;
   border-radius: 0.35rem;
   ${props =>  `background-color:${props.color}`  }
+`
+
+export const ChartContainer = styled.div`
+  margin: 1em;
 `
